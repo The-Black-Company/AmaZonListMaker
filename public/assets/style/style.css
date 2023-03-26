@@ -1,0 +1,71 @@
+/* Import the fonts used in the interface */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Set default styles for the body and headings */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+/* Set styles for the page header */
+header {
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+/* Set styles for the navigation menu */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  overflow-x: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+  white-space: nowrap;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #444;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #f8f8f8;
+}
+
+/* Set styles for the main content */
+main {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+/* Import the main styles for the interface */
+@import url('/assets/style/style.css');

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/assets/style/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>AmazonListMaker</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/product">Products</a></li>
+        <li><a href="/user">User</a></li>
+      </ul>
+    </nav>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

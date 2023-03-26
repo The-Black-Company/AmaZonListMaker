@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}User Details - PHP Website{% endblock %}
+
+{% block content %}
+    <h1>User Details Page</h1>
+    {% if userDetails.name is defined %}
+        <p>Name: {{ userDetails.name }}</p>
+    {% endif %}
+    {% if userDetails.email is defined %}
+        <p>Email: {{ userDetails.email }}</p>
+    {% endif %}
+{% endblock %}

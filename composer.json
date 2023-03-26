@@ -1,0 +1,23 @@
+{
+    "name": "elania/ama-zon-list-maker",
+    "description": "a php website to do amazon private list",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elie Renneson",
+            "email": "elie.renneson@etna.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "twig/twig": "^3.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "league/oauth2-client": "^2.6"
+    }
+}
